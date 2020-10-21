@@ -1,2 +1,2 @@
 # CSharp-Applications
-All C# exercises/applications/lessons
+All C# exercises/applications/lessons bootcamp
