@@ -1,0 +1,32 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace For_Use
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int  rows;
+            Console.Write("Δώστε έναν θετικό ακέραιο ");
+            rows = Convert.ToInt32(Console.ReadLine());
+
+            while (rows <= 0)
+            {
+                Console.Write("Δώστε έναν θετικό ακέραιο");
+                break;
+            }
+
+            for (int i = 1; i <= rows; i++)
+            {
+                for (int j = 1; j <= i; j++)
+                    Console.Write("{0}", i);
+                    Console.Write("\n");  //αλλάζει γραμμή
+            }
+            
+        }
+    }
+}
