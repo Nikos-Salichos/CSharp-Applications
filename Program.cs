@@ -24,7 +24,7 @@ namespace For_Use
             {
                 for (int j = 1; j <= i; j++)
                     Console.Write("{0}", i);
-                    Console.Write("\n");  //αλλάζει γραμμή
+                    Console.Write("\n");  //change line
             }
             
         }
